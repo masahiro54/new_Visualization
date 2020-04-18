@@ -1,0 +1,2 @@
+\copy ice_payment_tab FROM 'C:\Users\owner\Desktop\monotsukuri\icecream.csv' CSV header (encoding 'utf8') ;
+\copy weather_tab FROM 'C:\Users\owner\Desktop\monotsukuri\tokyo-weather-2003-2012.csv' CSV header (encoding 'utf8') ;
