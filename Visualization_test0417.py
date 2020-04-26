@@ -21,7 +21,7 @@ dcnt = 0
 #折れ線
 if param[0] == '1':
     # print('test')
-    plt.plot(data_frame.high_temp, data_frame.ice_payment, color=(0,0,1),label='気温別アイスの売上')
+    plt.plot(data_frame.high_temp, data_frame.ice_payment, color=(0,0,1),label='ice_sales')
     # plt.show()
     if len(param) > 1:
         param = param[1:]
