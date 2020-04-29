@@ -7,7 +7,10 @@ import matplotlib.pyplot as plt
 col_temp=[]
 col_ice_pay =[]
 args = sys.argv
-param = args[1]
+if len(sys.argv) == 1 :
+  param = "パラメータ設定なし"
+else:
+  param = args[1]
 print('指定パラメータ = ' + param)
 # print(type(param))
 project_id = 'bustling-bay-273908'
